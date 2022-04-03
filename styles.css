@@ -1,0 +1,392 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header1 {
+    text-align: center;
+    background-color: #e4e8f09f;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navBar {
+    
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: rgba(187, 187, 187, 0.199); */
+    background-color: #e4e8f09f;
+    
+    
+}
+
+.linkMenu {
+
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Open Sans Condensed;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 120%;
+
+    
+}
+
+.linkMenu:hover {
+    background-color: #e4e8f09f;
+    color: #0263bc;
+}
+
+
+.coming-soon h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+.coming-soon {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center ;
+   }
+
+.container-day {
+    margin: 10px;
+}
+   
+.container-hour {
+    margin: 10px;
+}
+
+.container-minuts {
+    margin: 10px;
+}
+
+.container-seconds {
+    margin: 10px;
+}
+
+.carousell {
+    margin: 20px;
+    padding-top: 40px;
+}
+
+.card-text {
+    padding: 10px;
+    max-width: 430px;
+    min-width: 250px;
+    max-height: 180px;
+    min-height: 100px;
+       
+}
+
+.card-title-h5 {
+    margin-top: 10px;
+}
+
+.card-img-top:hover {
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1)
+}
+
+.texto-contador {
+    color: #000000;
+    
+        
+    
+}
+
+
+.texto-contador h2 {
+    background-color: #e4e8f09f;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    padding: 10px;
+       
+}
+
+.container-hour {
+    background-color: #e4e8f09f;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    padding: 10px;
+}
+
+.container-minuts {
+    background-color: #e4e8f09f;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    padding: 10px;
+}
+
+.container-seconds {
+    background-color: #e4e8f09f;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    padding: 10px;
+}
+
+.container-day {
+    background-color: #e4e8f09f;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    padding: 10px;
+}
+
+.jugadores {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.players {
+    border: 1px solid #0263bc;
+    height: 325px;
+    width: 240px;
+    margin: 10px;
+    margin-top: 60px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    text-align: center;
+    
+
+}
+
+.players:hover {
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1)
+}
+
+.players h4 {
+    
+    background-color: #0263bc;
+    color: #fafafa;
+}
+
+.players h2 {
+    background-color: #0263bc;
+    color: #fafafa;
+}
+
+/* @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+  font-family: Roboto;
+} */
+
+.footer-distributed{
+  background: #e4e8f09f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  font: bold 16px sans-serif;
+  text-align: left;
+  padding: 50px 60px 40px;
+  overflow: hidden;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  float: left;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #000000;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+  margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  float: right;
+}
+
+.footer-distributed .footer-right p{
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px 42px 0 0;
+  color: #000000;
+}
+
+/* The contact form */
+
+.footer-distributed form{
+  display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+  display: block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color:  #1f2022;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  border: none;
+  resize: none;
+
+  font: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  color:  #d1d2d2;
+
+  width: 400px;
+  padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+  color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+  color:  #5c666b;
+  opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+  color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+  height: 55px;
+  margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+  border-radius: 3px;
+  background-color:  #33383b;
+  color: #ffffff;
+  border: 0;
+  padding: 15px 50px;
+  font-weight: bold;
+  float: right;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-company-name{
+    font-size: 12px;
+  }
+
+  .footer-distributed form input,
+  .footer-distributed form textarea{
+    width: 250px;
+}
+
+.footer-distributed form button{
+  padding: 10px 35px;
+}
+
+}
+
+@media (max-width: 800px) {
+
+.footer-distributed{
+  padding: 30px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-right{
+  float: none;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.footer-distributed .footer-left{
+  margin-bottom: 40px;
+}
+
+.footer-distributed form{
+  margin-top: 30px;
+}
+
+.footer-distributed form{
+  display: block;
+}
+
+.footer-distributed form button{
+  float: none;
+}
+}

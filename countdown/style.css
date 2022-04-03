@@ -1,0 +1,46 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+} */
+
+.coming-soon h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+.coming-soon {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center ;
+   }
+
+.container-day {
+    margin: 10px;
+}
+   
+.container-hour {
+    margin: 10px;
+}
+
+.container-minuts {
+    margin: 10px;
+}
+
+.container-seconds {
+    margin: 10px;
+}
+
