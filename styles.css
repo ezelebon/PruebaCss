@@ -338,8 +338,7 @@ body{
   float: right;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries */
-
+/* responsive */
 @media (max-width: 1000px) {
 
   .footer-distributed {
